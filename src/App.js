@@ -1,17 +1,16 @@
 import React from "react";
 import Navbar from "./components/nav/Navbar";
 import Main from "./components/main/Main";
-import "./App.css";
+import About from "./components/about/About";
+// import "./App.css";
 
 function App() {
   return (
-    <>
-      {/* <div> */}
+    <div>
       <Navbar />
       <Main />
-      
-      {/* </div> */}
-    </>
+      <About />
+    </div>
   );
 }
 

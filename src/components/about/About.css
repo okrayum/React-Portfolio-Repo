@@ -5,7 +5,7 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main {
+.aboutDiv {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,30 +15,29 @@
   margin-left: 5.25em;
 }
 
-h1 {
-  margin-top: .25em;
+.aboutName {
+  margin-bottom: .25em;
   font-size: 2rem;
 }
 
-p {
+.divider {
+  width: 75%;
+  height: 2px;
+  background-color: white;
+  margin-bottom: .5em;
+}
+
+.aboutMe {
+  width: 75%;
   font-size: 1.25rem;
-  margin-bottom: .75em;
 }
 
 @media (max-width: 600px) {
-  .main img {
-    width: 55%;
-  }
-
-  .main {
+  .aboutDiv {
     margin-left: 0em;
   }
 
-  h1 {
+  .aboutName {
     margin-top: 2em;
-  }
-  
-  p {
-    margin-bottom: 2em;
   }
 }
