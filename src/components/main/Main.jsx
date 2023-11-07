@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Main.css";
+import myImage from "../images/updated2.png";
 
 
 const Main = () => {
@@ -7,7 +8,8 @@ const Main = () => {
     <>
       <div className="main">
         <h1>I'm Jason Morgan</h1>
-        <h2>Web Developer</h2>
+        <p>Web Developer</p>
+        <img src={myImage} alt="Myself" width="30%" />
       </div>
     </>
   )
