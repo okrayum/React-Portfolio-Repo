@@ -7,7 +7,7 @@ import myImage from "../images/updated2.png";
 
 const Navbar = () => {
   return (
-    <>
+    <div>
 
       <nav className="navbar">
 
@@ -49,7 +49,7 @@ const Navbar = () => {
 
       </nav>
 
-    </>
+    </div>
   );
 }
 
