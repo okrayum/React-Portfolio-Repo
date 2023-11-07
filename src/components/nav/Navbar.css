@@ -6,16 +6,17 @@
 }
 
 .navbar {
+  z-index: 2;
   background-color: black;
   color: white;
-  /* padding: 1rem; */
   display: flex;
   flex-direction: column;
   position: fixed;
   top: 0;
   left: 0;
-  height: 100vh;
+  height: 100%;
   width: 8.5em;
+  overflow-y: auto;
 }
 
 .navbar img {
@@ -81,6 +82,7 @@ a:hover {
   }
 
   .nav {
+    /* display: flex; */
     width: 100%;
     height: 100%;
     flex-direction: row;
@@ -105,5 +107,9 @@ a:hover {
   a:hover {
     background-color: darkgray;
     color: black;
+  }
+
+  a {
+    font-size: 1.33em;
   }
 }
