@@ -12,7 +12,10 @@
   height: 100vh;
   background-color: black;
   color: white;
-  margin-left: 5.25em;
+  margin-left: 3rem;
+  /* padding-left: 5.5rem; */
+  width: auto;
+  padding-bottom: 1em;
 }
 
 h1 {
@@ -27,18 +30,24 @@ p {
 
 @media (max-width: 600px) {
   .main img {
-    width: 55%;
+    width: 70%;
   }
 
   .main {
     margin-left: 0em;
+    height: 100vh;
+    padding: 0;
   }
 
   h1 {
     margin-top: 2em;
+    font-size: 1.5em;
+
   }
   
   p {
     margin-bottom: 2em;
+    font-size: 1.15em;
+
   }
 }
