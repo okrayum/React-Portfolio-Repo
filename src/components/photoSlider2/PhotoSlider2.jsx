@@ -14,13 +14,14 @@ import project3 from '../images/project3.png';
 const PhotoSlider2 = () => {
   return (
     <Swiper
+      className="sliderContainer"
       spaceBetween={20}
       slidesPerView={1}
       navigation
       pagination={{ clickable: true }}
       autoplay={{ delay: 3000 }}
     >
-      <SwiperSlide className="sliderContainer">
+      <SwiperSlide>
         <img src={project1} alt="project1" />
       </SwiperSlide>
       <SwiperSlide>
