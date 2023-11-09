@@ -7,8 +7,8 @@ const About = () => {
     <div className='about' id="about">
         <h1 className="aboutName">Jason Morgan</h1>
         <div className="divider"></div>
-        <p className="aboutMe">Certified Full-Stack Web Developer with 1.5 years experience designing, constructing, and debugging responsive web applications. Experienced in a teamwork environment, using creative problem solving and team driven communication. Specializing in logic and functionality with Node.js & JavaScript. Enthusiastic about finding a position to learn and grow in an energetic and goal driven team.</p>
-        <h2 className="aboutName">SKILLS</h2>
+        <p className="aboutMe">Certified Full-Stack Web Developer with 1.5 years experience designing, constructing, and debugging responsive web applications. Experienced in a teamwork environment, using creative problem solving and goal driven communication. Specializing in logic and functionality with Node.js & JavaScript. Enthusiastic about finding a position to learn and grow in an energetic team.</p>
+        <h2 className="aboutName skills">SKILLS</h2>
         <div className="divider"></div>
         <SkillsGrid />
     </div>
