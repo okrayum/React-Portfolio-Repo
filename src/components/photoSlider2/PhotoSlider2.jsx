@@ -7,6 +7,10 @@ import 'swiper/css/bundle';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
+import project1 from '../images/project1.png';
+import project2 from '../images/project2.png';
+import project3 from '../images/project3.png';
+
 const PhotoSlider2 = () => {
   return (
     <Swiper
@@ -17,13 +21,13 @@ const PhotoSlider2 = () => {
       autoplay={{ delay: 3000 }}
     >
       <SwiperSlide className="sliderContainer">
-        <img src={require('../images/project1.png').default} alt="project1" />
+        <img src={project1} alt="project1" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={require('../images/project2.png').default} alt="project2" />
+        <img src={project2} alt="project2" />
       </SwiperSlide>
       <SwiperSlide>
-        <img src={require('../images/project3.png').default} alt="project3" />
+        <img src={project3} alt="project3" />
       </SwiperSlide>
     </Swiper>
   )
