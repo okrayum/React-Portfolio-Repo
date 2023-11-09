@@ -24,15 +24,14 @@
   margin-bottom: .5em;
 }
 
-
-
 @media (max-width: 600px) {
   .projects {
-    /* padding-top: 15em; */
     background-color: black;
     margin-left: 0em;
-    /* height: auto; */
-    /* width: auto; */
     padding: 0;
+  }
+
+  .projects .divider {
+    margin-bottom: 3.5em;
   }
 }
