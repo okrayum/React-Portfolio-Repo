@@ -1,8 +1,8 @@
 import React from 'react';
-import "./Navbar.css";
 import { BiHomeAlt2 } from "react-icons/bi";
 import { BsPerson, BsEye } from "react-icons/bs";
 import { RxEnvelopeClosed } from "react-icons/rx";
+import "./Navbar.css";
 import myImage from "../images/updated2.png";
 
 const Navbar = () => {
