@@ -1,4 +1,4 @@
-.about {
+.contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,18 +21,35 @@
   margin-bottom: .5em;
 }
 
+.contactDetails {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 1em;
+}
+
+.locationIcon {
+  margin-top: 1em;
+}
+
 .aboutMe {
   width: 75%;
   font-size: 1.25rem;
 }
 
+
 @media (max-width: 600px) {
-  .about {
+  .contact {
     background-color: black;
     margin-left: 0em;
-    height: auto;
+    height: 100vh;
     width: auto;
     padding: 0;
+  }
+
+  .locationIcon {
+    margin-top: 1em;
   }
 
   .aboutName {
@@ -40,12 +57,12 @@
     font-size: 1.5em;
   }
 
-  .skills {
-    margin-top: .5em;
-  }
-
   .aboutMe {
     margin-bottom: 0;
     font-size: 1.15em;
+  }
+
+  .aboutContact {
+    margin-bottom: 1em;
   }
 }

@@ -12,13 +12,12 @@
   text-align: center;
 }
 
-/* Media Query for smaller screens */
 @media (max-width: 600px) {
   .grid-container {
     grid-template-columns: repeat(3, 1fr); /* Four columns of equal width */
     grid-template-rows: repeat(4, .5fr); /* Three rows of equal height */
     margin-left: 0;
-    width: 75%;
+    width: 85%;
     height: 50%
   }
 

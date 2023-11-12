@@ -1,0 +1,44 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75%
+}
+
+.contactForm input {
+  width: 100%;
+  height: 3.5em;
+  margin-bottom: .50em;
+  font-size: 1em;
+}
+
+/* .contactForm textarea {
+  width: 100%;
+  height: 3.5em;
+  margin-bottom: .50em;
+  font-size: 1em;
+} */
+
+.contactForm button {
+  width: 35%;
+  height: 3em;
+  font-size: 1em;
+}
+
+label {
+  position: absolute;
+  left: -9999px;
+}
+
+@media (max-width: 600px) {
+  .contactForm input {
+    width: 100%;
+    height: 2.5em;
+    margin-bottom: .50em;
+  }
+
+  .contactForm button {
+    width: 45%;
+    height: 2.25em;
+  }
+}
