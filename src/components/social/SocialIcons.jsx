@@ -1,6 +1,6 @@
 import React from 'react';
 import { CiLinkedin } from "react-icons/ci";
-import { FiGithub } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
 import "./SocialIcons.css"
 
 
@@ -13,7 +13,7 @@ const SocialIcons = () => {
       <CiLinkedin size={40} className='phoneIcon' />
       </a>
       <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-      <FiGithub size={40} className='envelopeIcon' />
+      <FaGithub size={40} className='envelopeIcon' />
       </a>
     </div>
   )
