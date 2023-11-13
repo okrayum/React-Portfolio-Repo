@@ -20,6 +20,12 @@ p {
   margin-bottom: .75em;
 }
 
+@media (max-width: 900px) {
+  .main img {
+    width: 70%;
+  }
+}
+
 @media (max-width: 600px) {
   .main img {
     width: 70%;
