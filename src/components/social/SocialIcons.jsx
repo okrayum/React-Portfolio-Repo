@@ -1,6 +1,6 @@
 import React from 'react';
-import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import { ImLinkedin } from "react-icons/im";
 import "./SocialIcons.css"
 
 
@@ -9,11 +9,11 @@ const SocialIcons = () => {
   const githubUrl = 'https://github.com/okrayum';
   return (
     <div className="socialIcons">
-      <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
-      <CiLinkedin size={40} className='phoneIcon' />
-      </a>
       <a href={githubUrl} target="_blank" rel="noopener noreferrer">
       <FaGithub size={40} className='envelopeIcon' />
+      </a>
+      <a href={linkedInUrl} target="_blank" rel="noopener noreferrer">
+      <ImLinkedin size={40} className='phoneIcon' />
       </a>
     </div>
   )
