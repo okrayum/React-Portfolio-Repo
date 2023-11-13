@@ -7,17 +7,18 @@
 
 .contactForm input {
   width: 100%;
-  height: 3.5em;
+  height: 3em;
   margin-bottom: .50em;
   font-size: 1em;
 }
 
-/* .contactForm textarea {
+.contactForm textarea {
   width: 100%;
-  height: 3.5em;
+  /* height: 3.5em; */
   margin-bottom: .50em;
   font-size: 1em;
-} */
+  max-width: 100%;
+}
 
 .contactForm button {
   width: 35%;
@@ -34,6 +35,12 @@ label {
   .contactForm input {
     width: 100%;
     height: 2.5em;
+    margin-bottom: .50em;
+  }
+
+  .contactForm textarea {
+    width: 100%;
+    height: 3em;
     margin-bottom: .50em;
   }
 
