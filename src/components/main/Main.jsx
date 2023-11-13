@@ -8,7 +8,7 @@ const Main = () => {
     <div id="home" className="main">
         <h1>I'm Jason Morgan.</h1>
         <p>Web Developer</p>
-        <img src={myImage} alt="Myself" width="35%" />
+        <img src={myImage} alt="Myself" />
     </div>
   )
 }

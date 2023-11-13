@@ -91,11 +91,6 @@ a:hover {
     width: 100%;
   }
 
-  a:hover {
-    background-color: white;
-    color: black;
-  }
-
   a {
     font-size: 1.33em;
   }
