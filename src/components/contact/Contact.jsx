@@ -16,7 +16,7 @@ const Contact = () => {
       <div className="contactDetails">
         <p><GoLocation size={35} className='locationIcon' /> Phoenix, US</p>
 
-        <p><AiOutlinePhone size={35} className='phoneIcon' /> Phone: 480-953-3354</p>
+        <p><AiOutlinePhone size={35} className='phoneIcon' /> Phone: 480-420-6149</p>
         
         <p><RxEnvelopeClosed size={35} className='envelopeIcon' /> Email: morgannj71@gmail.com</p>
       </div>
