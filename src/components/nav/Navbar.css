@@ -10,6 +10,8 @@
   height: 100%;
   width: 8.5rem;
   overflow-y: auto;
+  box-shadow: 5px 0px 5px 0px rgba(255, 255, 255, 0.225);
+
 }
 
 .navbar img {
@@ -23,6 +25,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 50vh;
+
 }
 
 nav ul {
@@ -64,6 +67,7 @@ a:hover {
     height: 2.25em;
     flex-direction: row;
     justify-content: space-between;
+    box-shadow: 0px 3px 5px 0px rgba(255, 255, 255, 0.225);
   }
 
   .image {
