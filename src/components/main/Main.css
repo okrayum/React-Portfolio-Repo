@@ -22,6 +22,8 @@ p {
 
 .main img {
   width: 33em;
+  box-shadow: 5px 5px 5px 0px rgba(255, 255, 255, 0.225);
+  border-radius: 5px;
 }
 
 @media (max-width: 900px) {
