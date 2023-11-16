@@ -4,6 +4,7 @@ import { AiOutlinePhone } from "react-icons/ai";
 import { RxEnvelopeClosed } from "react-icons/rx";
 import ContactForm from '../contactForm/ContactForm';
 import SocialIcons from '../social/SocialIcons';
+// import MyFooter from '../footer/Footer';
 import "./Contact.css";
 
 const Contact = () => {
@@ -24,10 +25,9 @@ const Contact = () => {
       <p className="aboutMe aboutContact">Let's get in touch. Send me a message:</p>
 
       <ContactForm />
-      
       <SocialIcons />
+      {/* <MyFooter /> */}
 
-      
 
     </div>
   )

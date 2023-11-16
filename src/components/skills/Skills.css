@@ -5,6 +5,7 @@
   grid-gap: 0; /* Adjust the gap between grid items */
   width: 80%;
   height: 100vh;
+  color: gainsboro;
 }
 
 .grid-item {
