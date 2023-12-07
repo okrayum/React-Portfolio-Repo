@@ -22,6 +22,7 @@
 }
 
 .contactDetails {
+  margin-top: 2.5rem;
   width: 75%;
   display: flex;
   flex-direction: column;
@@ -34,6 +35,7 @@
 }
 
 .aboutMe {
+  margin-top: 2.5rem;
   width: 75%;
   font-size: 1.25rem;
 }

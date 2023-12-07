@@ -16,7 +16,10 @@ import project4 from '../images/projectD.png';
 import project5 from '../images/projectE.png';
 import project6 from '../images/projectF.png';
 import project7 from '../images/projectG.png';
-import project8 from '../images/projectH.png';
+import project9 from '../images/projectAAA.png';
+import project10 from '../images/projectAA.png';
+
+
 
 const PhotoSlider2 = () => {
   return (
@@ -28,7 +31,14 @@ const PhotoSlider2 = () => {
       pagination={{ clickable: true }}
       modules={[Navigation, Pagination]}
       autoplay={{ delay: 3000 }}
-      >
+    >
+
+      <SwiperSlide>
+        <img src={project9} alt="project9" />
+      </SwiperSlide>
+      <SwiperSlide>
+        <img src={project10} alt="project10" />
+      </SwiperSlide>
       <SwiperSlide>
         <img src={project1} alt="project1" />
       </SwiperSlide>
@@ -49,9 +59,6 @@ const PhotoSlider2 = () => {
       </SwiperSlide>
       <SwiperSlide>
         <img src={project7} alt="project7" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={project8} alt="project8" />
       </SwiperSlide>
     </Swiper>
   )

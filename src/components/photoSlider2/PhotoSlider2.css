@@ -11,6 +11,7 @@
 .sliderContainer img {
   width: 100%;
   height: auto;
+  margin-top: 2.5rem;
 }
 
 .swiper-button-prev {
@@ -42,5 +43,4 @@
     margin-top: 7em;
     height: 5em;
   }
-  
 }
