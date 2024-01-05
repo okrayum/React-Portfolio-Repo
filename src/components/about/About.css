@@ -24,6 +24,7 @@
 .aboutMe {
   width: 75%;
   font-size: 1.25rem;
+  text-align: justify;
 }
 
 @media (max-width: 600px) {
