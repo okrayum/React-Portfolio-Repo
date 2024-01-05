@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-Repo/static/css/main.b22e0150.css",
-    "main.js": "/React-Portfolio-Repo/static/js/main.123b1111.js",
+    "main.css": "/React-Portfolio-Repo/static/css/main.311facaa.css",
+    "main.js": "/React-Portfolio-Repo/static/js/main.9973a9aa.js",
     "static/media/updated2.png": "/React-Portfolio-Repo/static/media/updated2.953b67e18588cdc702e8.png",
     "static/media/projectA.png": "/React-Portfolio-Repo/static/media/projectA.7919e31e1f0e832f92a5.png",
     "static/media/projectB.png": "/React-Portfolio-Repo/static/media/projectB.5c5270cd38ca646f520e.png",
@@ -13,11 +13,11 @@
     "static/media/projectF.png": "/React-Portfolio-Repo/static/media/projectF.2484e752e0047ba10ca3.png",
     "static/media/projectG.png": "/React-Portfolio-Repo/static/media/projectG.d8aa2ffc7f438ea0910d.png",
     "index.html": "/React-Portfolio-Repo/index.html",
-    "main.b22e0150.css.map": "/React-Portfolio-Repo/static/css/main.b22e0150.css.map",
-    "main.123b1111.js.map": "/React-Portfolio-Repo/static/js/main.123b1111.js.map"
+    "main.311facaa.css.map": "/React-Portfolio-Repo/static/css/main.311facaa.css.map",
+    "main.9973a9aa.js.map": "/React-Portfolio-Repo/static/js/main.9973a9aa.js.map"
   },
   "entrypoints": [
-    "static/css/main.b22e0150.css",
-    "static/js/main.123b1111.js"
+    "static/css/main.311facaa.css",
+    "static/js/main.9973a9aa.js"
   ]
 }
