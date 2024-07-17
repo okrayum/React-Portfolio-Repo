@@ -1,5 +1,5 @@
 import React from 'react';
-import 'swiper/swiper-bundle.css'; // Import Swiper bundle CSS
+import 'swiper/swiper-bundle.css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
@@ -7,17 +7,27 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css/navigation';
 import 'swiper/css/bundle';
-import './PhotoSlider2.css'; // Import your custom CSS file
+import './PhotoSlider2.css';
 
-import project1 from '../images/projectA.png';
-import project2 from '../images/projectB.png';
-import project3 from '../images/projectC.png';
-import project4 from '../images/projectD.png';
-import project5 from '../images/projectE.png';
-import project6 from '../images/projectF.png';
-import project7 from '../images/projectG.png';
-import project9 from '../images/projectAAA.png';
-import project10 from '../images/projectAA.png';
+import project1 from '../images/project1.png';
+import project2 from '../images/project2.png';
+import project3 from '../images/project3.png';
+import project4 from '../images/project4.png';
+import project5 from '../images/project5.png';
+import project6 from '../images/project6.png';
+import project7 from '../images/project7.png';
+import project8 from '../images/project8.png';
+
+const projects = [
+  { id: 1, image: project1, name: 'Project 1', link: "https://studyflow.onrender.com/" },
+  { id: 2, image: project2, name: 'Project 2', link: "https://studyflow.onrender.com/" },
+  { id: 3, image: project3, name: 'Project 3', link: "https://okrayum.github.io/Shorty-s-Rescue/" },
+  { id: 4, image: project4, name: 'Project 4', link: "https://okrayum.github.io/Shorty-s-Rescue/" },
+  { id: 5, image: project5, name: 'Project 5'},
+  { id: 6, image: project6, name: 'Project 6'},
+  { id: 7, image: project7, name: 'Project 7'},
+  { id: 8, image: project8, name: 'Project 8'},
+];
 
 
 
@@ -31,35 +41,15 @@ const PhotoSlider2 = () => {
       pagination={{ clickable: true }}
       modules={[Navigation, Pagination]}
       autoplay={{ delay: 3000 }}
+      loop={true}
     >
-
-      <SwiperSlide>
-        <img src={project9} alt="project9" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={project10} alt="project10" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={project1} alt="project1" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={project2} alt="project2" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={project3} alt="project3" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={project4} alt="project4" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={project5} alt="project5" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={project6} alt="project6" />
-      </SwiperSlide>
-      <SwiperSlide>
-        <img src={project7} alt="project7" />
-      </SwiperSlide>
+      {projects.map(project => (
+        <SwiperSlide key={project.id}>
+          <a href={project.link} target="_blank" rel="noopener noreferrer">
+            <img src={project.image} alt={project.name} />
+          </a>
+        </SwiperSlide>
+      ))}
     </Swiper>
   )
 }

@@ -14,11 +14,7 @@
   margin-top: 2.5rem;
 }
 
-.swiper-button-prev {
-  margin-top: 15.5em;
-  height: 5em;
-}
-
+.swiper-button-prev,
 .swiper-button-next {
   margin-top: 15.5em;
   height: 5em;

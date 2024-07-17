@@ -18,7 +18,7 @@ const Contact = () => {
 
         <p><AiOutlinePhone size={35} className='phoneIcon' /> Phone: 480-420-6149</p>
         
-        <p><RxEnvelopeClosed size={35} className='envelopeIcon' /> Email: morgannj71@gmail.com</p>
+        <p><RxEnvelopeClosed size={35} className='envelopeIcon' /> Email: jasonmorgan.dev@gmail.com</p>
       </div>
 
       <p className="aboutMe aboutContact">Let's get in touch. Send me a message:</p>
