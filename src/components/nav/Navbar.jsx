@@ -4,7 +4,7 @@ import { BsPerson, BsEye } from "react-icons/bs";
 import { RxEnvelopeClosed } from "react-icons/rx";
 import { Link } from "react-scroll";
 import "./Navbar.css";
-import myImage from "../images/updated2.png";
+import myImage from "../images/me2.png";
 
 const Navbar = () => {
   return (

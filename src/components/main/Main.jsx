@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Main.css";
-import myImage from "../images/updated2.png";
+import myImage from "../images/me2.png";
 
 
 const Main = () => {
