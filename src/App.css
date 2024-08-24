@@ -1,8 +1,21 @@
+:root {
+  --primary-bg: #003366;
+  --secondary-bg: #4a4a4a;
+  --text-color: #f0f0f0;
+  --font-family: 'Nunito', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 *, body, html, ::before, ::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Nunito', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: var(--font-family);
+}
+
+body {
+  line-height: 1.6;
+  color: var(--text-color);
+  background: linear-gradient(to bottom, var(--primary-bg), var(--secondary-bg));
 }
 
 .container {

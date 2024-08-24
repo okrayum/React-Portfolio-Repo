@@ -1,6 +1,5 @@
 .navbar {
   z-index: 2;
-  background-color: black;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -9,7 +8,8 @@
   height: 100%;
   width: 8.5rem;
   overflow-y: auto;
-  box-shadow: 5px 0px 5px 0px rgba(255, 255, 255, 0.225);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: inherit;
 }
 
 .navbar img {
@@ -23,7 +23,6 @@
   flex-direction: column;
   justify-content: space-between;
   height: 50vh;
-
 }
 
 nav ul {
@@ -63,7 +62,8 @@ a:hover {
     top: 0;
     width: 100%;
     height: 2.25em;
-    box-shadow: 0px 3px 5px 0px rgba(255, 255, 255, 0.225);
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    background-color: var(--primary-bg);
   }
 
   .image {
@@ -79,7 +79,6 @@ a:hover {
     justify-content: space-between;
     width: 100%;
     height: 100%;
-
   }
 
   nav li {
@@ -96,5 +95,4 @@ a:hover {
   a {
     font-size: .90em;
   }
-
 }

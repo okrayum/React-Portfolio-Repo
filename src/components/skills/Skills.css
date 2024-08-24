@@ -1,11 +1,10 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Three columns of equal width */
-  grid-template-rows: repeat(3, 1fr); /* Four rows of equal height */
-  grid-gap: 0; /* Adjust the gap between grid items */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 0;
   width: 80%;
   height: 100vh;
-  color: gainsboro;
 }
 
 .grid-item {
@@ -15,8 +14,8 @@
 
 @media (max-width: 600px) {
   .grid-container {
-    grid-template-columns: repeat(3, 1fr); /* Four columns of equal width */
-    grid-template-rows: repeat(4, .5fr); /* Three rows of equal height */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, .5fr);
     margin-left: 0;
     width: 85%;
     height: 50%
@@ -25,6 +24,5 @@
   .grid-item {
     padding: 0;
     text-align: center;
-    background-color: black;
   }
 }

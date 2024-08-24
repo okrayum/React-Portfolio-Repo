@@ -7,21 +7,25 @@ This is a simple React portfolio created with Create React App.
 To get started with this portfolio, follow these steps:
 
 1. **Clone the repository:**
+
     ```bash
     git clone https://github.com/okrayum/React-Portfolio-Repo.git
     ```
 
 2. **Navigate to the project's root folder:**
+
     ```bash
     cd React-Portfolio-Repo
     ```
 
 3. **Install dependencies:**
+
     ```bash
     npm install
     ```
 
 4. **Run the app in development mode:**
+
     ```bash
     npm start
     ```

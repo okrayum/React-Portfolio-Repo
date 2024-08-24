@@ -4,7 +4,7 @@ import "./Footer.css"
 function MyFooter() {
   return (
     <footer>
-      Jason Morgan &copy; 2023
+      Jason Morgan &copy; 2024
     </footer>
   );
 }
