@@ -21,9 +21,16 @@
 }
 
 .contactForm button {
-  width: 35%;
+  width: auto;
+  min-width: 35%;
   height: 3em;
+  padding: 0 1.5em;
   font-size: 1em;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
 }
 
 .contactForm button:hover {
@@ -73,7 +80,9 @@ label {
   }
 
   .contactForm button {
-    width: 45%;
-    height: 2.25em;
+    width: auto;
+    min-width: 0;
+    height: 2.75em;
+    padding: 0 1.25em;
   }
 }
