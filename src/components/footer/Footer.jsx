@@ -4,7 +4,7 @@ import "./Footer.css"
 function MyFooter() {
   return (
     <footer>
-      Jason Morgan &copy; 2024
+      Jason Morgan &copy; {new Date().getFullYear()}
     </footer>
   );
 }

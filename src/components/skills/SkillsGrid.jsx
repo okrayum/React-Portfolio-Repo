@@ -1,10 +1,10 @@
 import React from 'react';
 import './Skills.css';
-import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaDatabase, FaGithub, FaGoogle, FaCode, FaServer } from 'react-icons/fa';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs, FaDatabase, FaGithub, FaGit, FaServer } from 'react-icons/fa';
 import { BiLogoMongodb } from 'react-icons/bi';
-import { SiJira } from 'react-icons/si';
+import { SiJira, SiPython } from 'react-icons/si';
 import { Tooltip } from 'react-tooltip';
-// import 'react-tooltip/dist/react-tooltip.css'
+import 'react-tooltip/dist/react-tooltip.css';
 
 const SkillsGrid = () => {
   return (
@@ -45,14 +45,14 @@ const SkillsGrid = () => {
         <Tooltip id="github" />
       </div>
 
-      <div data-tooltip-id="google" data-tooltip-content="Google"  className="grid-item">
-        <FaGoogle size={100} />
-        <Tooltip id="google" />
+      <div data-tooltip-id="python" data-tooltip-content="Python"  className="grid-item">
+        <SiPython size={100} />
+        <Tooltip id="python" />
       </div>
 
-      <div data-tooltip-id="code" data-tooltip-content="Code"  className="grid-item">
-        <FaCode size={100} />
-        <Tooltip id="code" />
+      <div data-tooltip-id="git" data-tooltip-content="Git"  className="grid-item">
+        <FaGit size={100} />
+        <Tooltip id="git" />
       </div>
 
       <div data-tooltip-id="mongodb" data-tooltip-content="MongoDB" className="grid-item">
@@ -60,7 +60,7 @@ const SkillsGrid = () => {
         <Tooltip id="mongodb" />
       </div>
 
-      <div data-tooltip-id="server" data-tooltip-content="Server" className="grid-item">
+      <div data-tooltip-id="server" data-tooltip-content="REST APIs" className="grid-item">
         <FaServer size={100} />
         <Tooltip id="server" />
       </div>
