@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
   margin-left: 8rem;
   width: auto;
   padding-bottom: 1em;
@@ -44,7 +44,7 @@ p {
 
   .main {
     margin-left: 0em;
-    height: 100vh;
+    min-height: 100vh;
     padding: 0;
   }
 
@@ -57,5 +57,23 @@ p {
     margin-bottom: 2em;
     font-size: 1.15em;
     padding: 0 1em;
+  }
+}
+/* Landscape phones / short viewports: the width-based queries above still
+   apply, but 100vh is short — keep the hero compact so sections don't
+   balloon. (Sections use min-height so nothing can overlap regardless.) */
+@media (max-height: 500px) {
+  .main img {
+    margin-top: 2rem;
+    width: 38%;
+  }
+
+  .main h1 {
+    margin-top: 1em;
+    font-size: 1.75rem;
+  }
+
+  .main p {
+    margin-bottom: 1em;
   }
 }

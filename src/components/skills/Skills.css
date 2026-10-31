@@ -4,7 +4,7 @@
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 0;
   width: 80%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .grid-item {
