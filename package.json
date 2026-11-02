@@ -2,7 +2,7 @@
   "name": "jason",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://okrayum.github.io/React-Portfolio-Repo",
+  "homepage": ".",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@testing-library/jest-dom": "^5.17.0",
